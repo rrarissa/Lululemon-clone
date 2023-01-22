@@ -1,0 +1,24 @@
+body{
+  margin: 0;
+  font-family: 'Calibre', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif
+
+}
+.sizeTitle{
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: 19px;
+  padding: 16px 8px 16px 0;
+  width: 250px;
+  border-top: 1px solid lightgrey;
+}
+
+.checkBoxDiv{
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  .sizeType{
+    margin-left: 10px;
+  }
+}
