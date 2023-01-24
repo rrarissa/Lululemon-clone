@@ -3,9 +3,11 @@ body{
   margin: 0;
   font-family: 'Calibre', 'Helvetica Neue', 'Helvetica', 'Roboto', 'Arial', sans-serif
 }
+
 .sizeComponent{
   margin-left: 30px;
   align-items: center;
+  justify-content: center;
   background-color: #fff;
   border-radius: 0.25rem;
   border: 0.0625rem solid #d5d5d5;
@@ -15,8 +17,7 @@ body{
   font-size: 1.1875rem;
   font-weight: 600;
   height: 2rem;
-  justify-content: center;
   line-height: 0;
-  width: 1.25rem;
+  max-width: 1.25rem;
   padding: 0 0.53125rem;
 }

@@ -6,18 +6,16 @@ import actions from "../actions";
 import {fetchFilter} from "../actions/fetchFilter";
 import {useEffect} from "react";
 import {GenderFilter} from "./GenderFilter";
+import Colour from "./Colour";
 
 const LeftFilter = () => {
-    const dispatch = useDispatch()
-    useEffect(() => {
-        dispatch(fetchFilter())
-    }, [])
 
     return <div>
         This is LeftFilter.
         <GenderFilter />
         <Activity />
         <Size/>
+        <Colour />
     </div>
 }
 export default LeftFilter
